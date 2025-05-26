@@ -8,9 +8,17 @@
     "export": "slidev export"
   },
   "dependencies": {
+    "@iconify-json/fluent": "^1.2.22",
+    "@iconify-json/formkit": "^1.2.2",
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/pepicons-pencil": "^1.2.1",
+    "@iconify-json/pepicons-pop": "^1.2.1",
+    "@iconify-json/simple-icons": "^1.2.35",
+    "@iconify-json/tabler": "^1.2.18",
     "@slidev/cli": "^51.8.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
+    "slidev-theme-the-unnamed": "^0.0.22",
     "vue": "^3.5.14"
   },
   "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a"
