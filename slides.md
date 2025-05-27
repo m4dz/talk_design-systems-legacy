@@ -17,16 +17,10 @@ layout: cover
 background: https://images.pexels.com/photos/691710/pexels-photo-691710.jpeg?auto=compress&w=960&h=1080&dpr=1&cs=srgb&fm=jpg
 ---
 
-# You weren’t ready for **Design systems**
+# You weren’t ready <br> for **Design systems**
 
-Bringing a 20-years old platform to a new Era
+Bringing a [20-years old platform]{v-mark.underline="{color:'var(--slidev-theme-accents-yellow)'}"} to a new Era<br>[Future Frontend 2025, Espoo - Finland]{class=text-lg}<br><br>[<icons8-right-round /> m4dz.net/t/design-systems-legacies](https://m4dz.net/t/design-systems-legacies){class=text-lg}
 
-
-<!--
-NOTES:
-  - KubeCSS
--->
-  
 ---
 layout: image
 image: https://www.want.nl/wp-content/uploads/2023/08/Back-to-the-Future.png
@@ -51,7 +45,7 @@ social2: Member of the CTO Office @ Zenika
 
 ---
 layout: section
-cover:
+background: https://images.pexels.com/photos/16145450/pexels-photo-16145450.jpeg?auto=compress&w=960&h=1080&dpr=1&cs=srgb&fm=jpg
 ---
 
 # The Origins
@@ -79,12 +73,12 @@ style: --slidev-theme-default-font-size:1.6rem
 - A multi-app system
 - A Bootstrap-based frontend
 - 18 years old codebase
-- Some parts with APIs...
-- ...but not everywhere {v-click}
+- Some parts with APIs
+  <span v-click><br>...but not everywhere</span>
 
 ---
 
-# How it Works
+# How it Worked
 
 ```mermaid
 flowchart LR
@@ -95,6 +89,7 @@ flowchart LR
   D --> A
 ```
 
+<div v-click="1" v-motion :initial="{x:650, y:-250, scale:0.5}" :enter="{scale:2, transition:{duration:550}}" class="text-12rem">👻</div>
 ---
 layout: image-right
 image: https://media.tenor.com/SiRHlLhaIqcAAAAC/homer-simpson-sus.gif
@@ -111,8 +106,8 @@ style: --slidev-theme-default-font-size:1.4rem
 - Bloated styles
 - Inline Scripts
 - External scripts
-- Data
-- i18n
+- Inline Data
+- i18n mess
 
 </v-clicks>
 
@@ -157,11 +152,11 @@ style: --slidev-theme-default-font-size:1.8rem
 # A workflow for the team
 
 - Works out-the-box
-- ... even when boostrapping new views {v-click}
+  <span v-click><br>... even when boostrapping new views</span>
 - Batteries included
-- ... with no need for supercharging {v-click}
+  <span v-click><br>... with no need for supercharging</span>
 - Out-of-scope delivery
-- ... but ready to handle their needs and requests {v-click}
+  <span v-click><br>... but ready to handle their needs and requests</span>
 
 ---
 layout: center
@@ -410,7 +405,7 @@ layout: two-cols
 
 For [each app]{v-mark="{color:'var(--slidev-theme-accents-yellow)'}"}
 
-3. Create `vite.config.js` in workspace
+3. Creating `vite.config.js` in workspace
 4. Extracting scripts, leaving data
    ```jinja
    <script>
@@ -468,8 +463,12 @@ style: --slidev-theme-default-font-size:1.4rem
 - We architectured the `ui` package to host components
 - We built a simple component ready to be integrated
 
-🎉 No Big Bang, just a discrete continuity
-[(pun intended)]{class=text-sm}
+
+<p class="!my-8">
+
+<solar-confetti-bold class="text-3xl animate-ping mr-6" style="color:var(--slidev-theme-section-headingBg)"/> No Big Bang, just a discrete continuity [(pun intended)]{class="text-sm align-text-top"}
+
+</p>
 
 ---
 layout: section
@@ -528,6 +527,12 @@ style: --slidev-theme-default-font-size:1.4rem
 
 - Simple API to pass Storybook params
 
+<p class="!my-8 flex items-center text-3xl" v-click>
+
+<solar-rocket-bold-duotone class="text-5xl mr-6" style="color:var(--slidev-theme-accents-yellow)"/> [Components-as-a-Service]{v-mark.underline="{color:'var(--slidev-theme-accents-yellow)',at:2}"}
+
+</p>
+
 ---
 style: --slidev-theme-default-font-size:1.4rem
 ---
@@ -559,14 +564,15 @@ style: --slidev-theme-default-font-size:1.8rem
 
 - It's just building blocks
 - All technologies were ready
-- ... but not ready to work together {v-click}
+  <span v-click><br>... but not ready to work together</span>
 - We used [a lot]{v-mark.circle="{color:'var(--slidev-theme-accents-yellow)'}"} of glue
 
 ---
 layout: center
+background: https://images.pexels.com/photos/3482719/pexels-photo-3482719.jpeg?auto=compress&w=960&h=1080&dpr=1&cs=srgb&fm=jpg
 ---
 
-# A Complete Ecosystem
+# An Overall Ecosystem!
 
 ---
 layout: center
